@@ -1,1 +1,10 @@
-
+.container{
+	background-color: #ff0080;
+}
+.row{
+	text-align:center;
+	flex-wrap: nowrap !important;
+}
+.col-border{
+	border: 1px solid #000000;
+}
