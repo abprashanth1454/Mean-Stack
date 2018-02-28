@@ -1,1 +1,27 @@
-
+.container{
+}
+.row{
+	text-align:center;
+	flex-wrap: nowrap !important; 
+}
+.col-border{
+	border: 1px solid #000000;
+}
+.c1, .c2, .c3, .c4{
+	width: 100%;
+}
+.c1{
+    background-color: #ff0080;
+    min-height: 80px;
+    order: 1;
+}
+.c2{
+    background-color: #ff00ff;
+    min-height: 80px;
+    order: 3;
+}
+.c3{
+    background-color: #bf00ff;
+    min-height: 80px;
+    order: 2;
+}
